@@ -171,6 +171,9 @@ p {
   .section-center {
     width: 95vw;
   }
+  .search-form h2 {
+    line-height: 3rem;
+  }
 }
 /* loading */
 .loading {
@@ -284,11 +287,18 @@ input::placeholder {
     grid-template-columns: 1fr 1fr;
     column-gap: 3rem;
   }
+  .drink-info h4 {
+    font-size: 1.5rem;
+    color: brown;
+  }
 }
 .drink-info {
   padding-top: 2rem;
 }
-
+.drink-info h4 {
+  font-size: 1rem;
+  color: brown;
+}
 .drink-ingredients .far {
   margin-right: 1rem;
 }
