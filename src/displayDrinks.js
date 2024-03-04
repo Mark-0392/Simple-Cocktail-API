@@ -8,6 +8,7 @@ const displayDrinks = ({ drinks }) => {
     hideLoading()
     title.textContent = 'Sorry, nothing matched your results'
     section.innerHTML = null
+    return
   }
   const newDrinks = drinks
     .map((drink) => {

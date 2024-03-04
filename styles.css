@@ -289,7 +289,6 @@ input::placeholder {
   }
   .drink-info h4 {
     font-size: 1.5rem;
-    color: brown;
   }
 }
 .drink-info {
@@ -297,7 +296,7 @@ input::placeholder {
 }
 .drink-info h4 {
   font-size: 1rem;
-  color: brown;
+  color: rgb(250, 125, 156);
 }
 .drink-ingredients .far {
   margin-right: 1rem;

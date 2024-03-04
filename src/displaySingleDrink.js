@@ -4,7 +4,7 @@ const displayDrink = (data) => {
   hideLoading()
   const drink = data.drinks[0]
   //   console.log(drink)
-  const { strDrinkThumb: image, strDrink: name, strInsturctions: desc } = drink
+  const { strDrinkThumb: image, strDrink: name, strInstructions: desc } = drink
   const list = [
     drink.strIngredient1,
     drink.strIngredient2,
@@ -23,7 +23,7 @@ const displayDrink = (data) => {
   ingredients.innerHTML = list
     .map((item) => {
       if (!item) return
-      return `<li><i class="far fa-check-square">${item}</i></li>`
+      return `<li><i class="far fa-check-square">&nbsp; ${item}</i></li>`
     })
     .join('')
 }
